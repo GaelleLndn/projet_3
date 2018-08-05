@@ -1,0 +1,16 @@
+
+<mat-toolbar  color="primary"  class="fixed-header">
+    <mat-toolbar-row style="border: 2px solid white; justify-content: center">
+        <h5>MEMENTO</h5>
+    </mat-toolbar-row>
+    <mat-toolbar-row style="border: 2px solid white; justify-content: center">
+        <a  mat-button  routerLink="/logs/add" routerLinkActive="active">Ajouter</a>
+        <a  mat-button  routerLink="/logs">Liste</a>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+   
+<main>
+    <router-outlet  style="margin-top: 80px;"></router-outlet>
+</main>
